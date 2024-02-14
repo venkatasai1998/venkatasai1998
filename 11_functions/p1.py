@@ -51,3 +51,7 @@
 # carmodels(carmodel="swift",caryear=2019)
 # carmodels(carmodel="swift",caryear=2025)
 # carmodels(carmodel="swift",caryear=2011)
+
+
+fruits=["apple","banana","cherry"]
+print(len(fruits[0]))
