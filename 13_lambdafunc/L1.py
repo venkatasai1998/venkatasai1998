@@ -1,3 +1,6 @@
+#Lambda functions in Python are small, anonymous functions that can have any number of parameters but can only have one expression
+# lambda should not use the return keyword
+
 # def d1():
 
 #     return print("d1 function")
