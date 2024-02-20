@@ -16,10 +16,9 @@ print(L2)
 L3=[i  for i in range(0,30) if i%2==0 if i%5==0]
 print(L3)
 
-names = ["admin","not admin","admin","admin","admin"]
+names = ["admin","admin","not admin","admin","admin"]
 l4= [i if i=="admin" else "not admin" for i in names]
 print(l4)
 
 L5=[x*y for x in [10,20,30] for y in [10,20,30]]
 print(L5)
-
