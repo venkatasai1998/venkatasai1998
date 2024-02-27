@@ -9,7 +9,7 @@
 # def d1(n):
 #     return n*2
 
-# a=map(d1,L2)
+# a=map(d1,L2)     
 # print(a)        #<map object at 0x00000241D9C75E10>
 # print(tuple(a))
 

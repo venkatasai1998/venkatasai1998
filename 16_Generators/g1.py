@@ -25,7 +25,7 @@
 # print(d.__next__())
 # print(d.__next__())
 # print(d.__next__())
-# print(d.__next__())
+# print(d.__next__())v
 
 # return
 # def d1():
@@ -42,9 +42,9 @@
 
 # generator comprehension(nothing but tuple comprehension)
 
-a1=(i for i in range(10))
-print(a1)         #<generator object <genexpr> at 0x000001EFFDA24880>
-print(tuple(a1))
+# a1=(i for i in range(10))
+# print(a1)         #<generator object <genexpr> at 0x000001EFFDA24880>
+# print(tuple(a1))
 
 
 
