@@ -9,7 +9,7 @@
 from multipledispatch import dispatch
 
 class product:
-    @dispatch(int,int)  # by using dispatch method users can try to setup their fixed dagit tatypes while calling the objects.
+    @dispatch(int,int)  # by using dispatch method users can try to setup their fixed datatypes while calling the objects.
     def d1(self,a,b):
 
         print(a,b)

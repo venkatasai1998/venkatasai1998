@@ -41,4 +41,5 @@ class product:
 
 P=product()
 P.displayproducts("101","samsung",1000)
-delattr("productid")
+del P.pid
+print("After deleting 'pid':", P.__dict__)

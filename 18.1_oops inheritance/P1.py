@@ -50,33 +50,33 @@
 
 
 # multiple
-# class grandparent:
+class grandparent:
 
-#     def d1(self):
-#         print("instance method d1")
+    def d1(self):
+        print("instance method d1")
         
-# class parent:
+class parent:
 
-#     def d2(self):
+    def d2(self):
 
-#         print("instance method d2")
+        print("instance method d2")
 
-# class child(grandparent , parent):
+class child(grandparent , parent):
 
-#     def d3(self):
+    def d3(self):
 
-#         print("instance method d3")
+        print("instance method d3")
 
-# c=child()
-# c.d1()
-# c.d2()
-# c.d3()
+c=child()
+c.d1()
+c.d2()
+c.d3()
 
-# P=parent()
-# P.d2()
+P=parent()
+P.d2()
 
-# g=grandparent()
-# g.d1()
+g=grandparent()
+g.d1()
 
 
 #Hierarchial 
