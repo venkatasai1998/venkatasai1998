@@ -34,8 +34,7 @@
 # finally:
 #   f.close()
   
-#task 2 Read the data from the file using read method
-#global variable anywhere you can call if you are not used then finally block should be undefined
+#task 2 Read the data from the file using read method          
 
 # try:
 #   f=open("one.txt","r")
