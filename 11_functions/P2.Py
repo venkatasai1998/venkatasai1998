@@ -31,7 +31,7 @@
 # #locals() method
 # def my_function():
 #     local_var = "I am a local variable"
-#     local_var = "I am a glob                   al variable"
+#     local_var = "I am a global variable"
     
 #     local_symbol_table = locals()["local_var"]
 #     print("Local variable inside the function:", local_symbol_table)

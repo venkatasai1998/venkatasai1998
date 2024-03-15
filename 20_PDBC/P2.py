@@ -4,7 +4,7 @@
 # conn=mysql.connector.connect(host='localhost',database='cricket', user='root',password='Sai@1998')
 # cursor=conn.cursor()
 
-# query='INSERT INTO employee(empno,ename,eage,ecity)values(%s,%s,%s,%s   )'
+# query='INSERT INTO employee(empno,ename,eage,ecity)values(%s,%s,%s,%s)'
 # values=(101,'sai kiran',28,'hyd')
 
 # cursor.execute(query,values)

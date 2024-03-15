@@ -34,15 +34,12 @@
 
 # using loop
 L3=[10,20,30,40,50,60,70]
-result=iter(L3)
-while True :
-    try:
-        element=next(result)
-        print(element)
-
-    except StopIteration as e:
-        print(e)
-        break
-
-
+result=L3.__iter__()
+print(result)
+n1=next(result)
+print(n1)
+n1=next(result)
+print(n1)
+n1=next(result)
+print(n1)
 
