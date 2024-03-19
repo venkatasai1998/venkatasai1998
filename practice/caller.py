@@ -1,5 +1,7 @@
-import area
+# import area
 
-print("Iam in caller.py")
+# print("Iam in caller.py")
 
-area.calc_area(5,10)
+# area.calc_area(5,10)
+
+
